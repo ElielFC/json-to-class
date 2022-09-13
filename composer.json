@@ -24,5 +24,9 @@
        "psr-4": {
            "ElielFC\\JsonToClass\\Test\\": "tests/"
        }
+   },
+   "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --debug --coverage-html coverage"
    }
 }
